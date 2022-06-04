@@ -5,15 +5,20 @@
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
 }
 /* NAV START*/
 .header {
-    padding: 20px;
+    padding: 65px;
+    margin: 0px;
     background-color: black;
     color: white;
+    
 }
 .header h1 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
     display: inline-block;
     font-size: 48px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
@@ -26,9 +31,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
-.header main ul {
-    list-style-type: none;
-}
+
 
 .header main ul li {
     display: inline-block;
@@ -42,38 +45,71 @@ a {
 /*NAV END */
 
 .about-me-img {
+    flex-wrap: wrap;
     max-height: 500px;
     float: left;
     margin-right: 25px;
+    display: inline-block;
 }
 .content {
-    width: 50%;
-    display: inline-block;
     margin-left: 0px;
-    margin-bottom: 20px;
-    padding: 100px;
-    height: 100px;
+    margin-bottom: 5px;
+    padding: 50px;
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(41, 41, 41);
+    color: #ffffff;
+    height: 550px;
+    width: 90%;
+    margin-bottom: 0px;
+    background-position:top;
+    
+}
+h2 {
+    color: rgb(60, 184, 218);
+    font-size: 28;
+}
+p {
+    font-size: 20px;
+    font-style: normal;
+}
+/*My work CSS*/
+
+.hori-img {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+.my-work {
+    margin-left: 0px;
+    margin-bottom: 5px;
+    padding: 50px;
+    height: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(41, 41, 41);
     color: #ffffff;
     height: 650px;
     width: 90%;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
     background-position:top;
-}
-h2 {
     font-size: 28;
-}
-p {
-    font-size: 22px;
-    font-style: normal;
-}
-/*My work CSS*/
-.hori-img {
-    max-width: 1000px;
-    max-height: 1000px;
+  
 }
 
-.my-work p {
-    font-size: 1000px;
+.contact a { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    display:row;
+}
+
+.contact h2 {
+    font-size: 28;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 25px;
+    margin: -20px;
+   
 }
