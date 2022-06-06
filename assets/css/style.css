@@ -40,10 +40,11 @@ a {
 /*NAV END */
 .about-me-img {
     flex-wrap: wrap;
-    max-height: 500px;
     float: left;
     margin-right: 25px;
     display: inline-block;
+    max-width: 50%;
+    max-height: auto;
 }
 .content {
     margin-left: 0px;
@@ -52,6 +53,7 @@ a {
     height: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: 550px auto;
+    justify-content: space-between;
     
 }
 h2 {
@@ -65,15 +67,23 @@ p {
 /*My work CSS*/
 
 .hori-img {
-    padding:20px;
-    max-width: 1000px;
-    max-height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 75%;
+    max-height: 50%;
+   
 
 }
-.my-work h2 {
-    flex: auto;
-  
-  
+.my-work {
+    position: relative;
+
+}
+.my-work h2{
+    display: grid;
+}
+.my-work a {
+    padding: 25%;
+    margin: 25%;
 }
 .contact-me a { 
     color:black;
