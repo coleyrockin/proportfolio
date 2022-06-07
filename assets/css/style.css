@@ -8,15 +8,16 @@ body {
 }
 /* NAV START*/
 .header {
+    display: flex;
     padding: 35px;
     margin: 25px;
     background-color: black;
     color: white;
+    justify-content: space-between;
     
 }
 .header h1 {
     flex-wrap: wrap;
-    display: flex;
     justify-content: space-between;
     display: inline-block;
     font-size: 48px;
@@ -39,12 +40,11 @@ a {
 }
 /*NAV END */
 .about-me-img {
-    flex-wrap: wrap;
     float: left;
     margin-right: 25px;
-    display: inline-block;
-    max-width: 50%;
-    max-height: auto;
+    margin-bottom: 25px;
+    max-width: 100%;
+    max-height: 550px;
 }
 .content {
     margin-left: 0px;
@@ -52,35 +52,36 @@ a {
     padding: 50px;
     height: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height: 550px auto;
-    justify-content: space-between;
-    
 }
 h2 {
     color: rgb(60, 184, 218);
-    font-size: 28;
+    font-size: 26px;
 }
 p {
     font-size: 20px;
     font-style: normal;
 }
+
+.flex-row {
+    display: inline-block;
+    flex-wrap: wrap;
+}
 /*My work CSS*/
 
-.hori-img {
-    display: flex;
-    justify-content: space-around;
-    max-width: 75%;
-    max-height: 50%;
-   
-
-}
 .my-work {
-    position: relative;
+    margin: -15px;
+    padding: 13px;
+}
 
+.hori-img {
+    padding: 15px;
+    display: flex;
+    max-width: 95%;
+    max-height: 50%;
 }
-.my-work h2{
-    display: grid;
-}
+
+.my-work
+
 .my-work a {
     padding: 25%;
     margin: 25%;
@@ -94,5 +95,4 @@ p {
 .contact-me h2 {
     font-size: 28;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- 
-}
+ }
