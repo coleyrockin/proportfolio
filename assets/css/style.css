@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -15,7 +16,7 @@ body {
     background-color: black;
     color: white;
     justify-content: space-between;
-    
+
 }
 
 .header h1 {
@@ -23,7 +24,7 @@ body {
     justify-content: space-between;
     display: inline-block;
     font-size: 48px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .header main {
@@ -75,31 +76,34 @@ p {
 }
 
 .flex-row {
-    margin-top:-15px;
+    margin-top: -15px;
     display: inline-block;
     flex-wrap: wrap;
 }
+
 /*My work CSS*/
 
 .my-work {
     margin: -15px;
     padding: 13px;
 }
+
 /*My work imagine**/
 .hori-img {
-    padding:0px;
+    padding: 0px;
     display: flex;
     max-width: 100%;
- }
+}
 
 .my-work a {
     padding: 25%;
     margin: 25%;
 }
+
 /*FOOT INFO*/
-.contact-me a { 
-    color:black;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.contact-me a {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24px;
     font-weight: bold;
 
@@ -108,14 +112,18 @@ p {
 .contact-me h2 {
     font-size: 28;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- }
+}
 
- address {
-     padding:12px;
-     margin: -5px;
-     display:flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     font-style: inherit;
- }
+address {
+    padding: 12px;
+    margin: -5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-style: inherit;
+}
+
+.projects {
+    display: inline;
+}
